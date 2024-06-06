@@ -1,48 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Go-Shopping Market</title>
-<a href="" ></a>
-<style>
-body 
-{
-  font-family: Arial, sans-serif;
-} 
-</style>
+  <meta name="viewport" content="width=device-Width"> 
+  <title>Go-Shop</title>
+  <link rel="stylesheet" href="/Market/css/Style.css"
 </head>
 <body>
-   
-    <div class="header">
-      <div align ="left" class="logo-page">
-        <img src="/Market/Images/logo.svg" alt="logo" > 
+  <div class="header">
+      <a name="header"></a>
+      <div class="logo-page">
+        <img src="/Market/Images/logo.png" alt="logo" > 
         </div>
-        <div >Discover Our Eco-Friendly Shoes Collection</div>
-    </div>
-        
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/Market/css/Style.css"
-
+  </div>
   <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#container">Order</a>
-        <div class="dropdown">
-          <button class="dropbtn">Products
+      <a href="#header">Home</a>
+      <div class="dropdown">
+         <button class="dropbtn">Products
             <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Men</a>
-            <a href="#">Women</a>
-            <a href="#">Children</a>
-          </div>
-        </div>
-    </div>
+            </button>
+            <div class="dropdown-content">
+            <a href="#Men">Men</a>
+            <a href="#women">Women</a>
+            <a href="#child">Children</a>
+      </div>
+    </div> <a href="#order">Order</a>
+  </div>
 
-    <div class="side">Welcome to Go shopping, where fashion meets sustainability! Our mission is to offer stylish and eco-conscious footwear that not only looks good but also feels good for the planet. Step into a world of sustainable fashion with our carefully curated shoe collection.
-        </div>
-        <div class="main">...</div>
+    <div class="Textheader">Welcome to Go shopping, where fashion meets sustainability! Our mission is to offer stylish and eco-conscious footwear that not only looks good but also feels good for the planet. Step into a world of sustainable fashion with our carefully curated shoe collection.
+
     </div>
   
-    <div class="row">
+    <div class="women">
+      <a name="women"></a>
         <div class="column">
           <div class="card">
             <img src="/Market/Images/p3.jpeg" alt="Women" style="width:100%">
@@ -57,7 +46,8 @@ body
           </div>
         </div>
       
-        <div class="column">
+        <div class="child">
+          <a name="child"></a>
           <div class="card">
             <img src="/Market/Images/p2.webp" alt="Children" style="width:100%">
             <div class="container">
@@ -71,7 +61,8 @@ body
           </div>
         </div>
       
-        <div class="column">
+        <div class="Men">
+          <a name="Men"></a>
           <div class="card">
             <img src="/Market/Images/p1.jpeg" alt="Man" style="width:100%">
             <div class="container">
@@ -87,6 +78,7 @@ body
     </div>
 
     <form action="Successfully Order, Thanks for your Loyality">
+      <a name="order"></a>
         <div
           class="order">
           <h2 align="center" >Order Now</h2>
@@ -106,7 +98,7 @@ body
         </div>
     </form>
     <div class="footer">
-        <h5 align="center"> Made With Love by @ Moaz shaker</h5>
+        <h5 align="center"> Made With Love by @Moaz Shaker</h5>
     </div>
 </body>
 </html>
